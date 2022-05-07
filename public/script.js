@@ -116,12 +116,12 @@ gameData = {
         "image": "DANIEL_RADCLIFFE.jpg",
         "issue": "22"
     },
-    "04/26/2022": {
+    "05/09/2022": {
         "name": ["ASHTON KUTCHER", "KELSO", "ASHTEN KUTCHER", "ASHTON CUTCHER", "ASHTON", "KUTCHER"],
         "image": "ASHTON_KUTCHER.jpg",
         "issue": "23"
     },
-    "04/27/2022": {
+    "05/10/2022": {
         "name": ["DAVID LETTERMAN", "DAVE LETTERMAN", "DAVE", "LETTERMAN"],
         "image": "DAVID_LETTERMAN.jpg",
         "issue": "24"
@@ -189,11 +189,16 @@ const findLastSuccessfulImage = () => {
     for (let i = gameDataKeys.length-1; i > 0; i--) {
         exists = imageExists(gameData[gameDataKeys[i]].image);
         data = gameDataKeys[i]
+        if (!isPastPuzzle(gameDataKeys[i])) exists = false;
         if (exists) return data;
     }
 
     return data
 }
+
+function stripQueryStringAndHashFromPath(url) {
+    return url.split("?")[0].split("#")[0];
+  }
 
 const onLoad =(testDate) => {
     const urlSearchParams = new URLSearchParams(window.location.search);
@@ -206,10 +211,8 @@ const onLoad =(testDate) => {
     state.issue = gameData[todaysGameDate].issue
     setImage();
     updateScoreCard();
-    // for (let x in gameData) {
-    //     console.log(x)
-    //     console.log(isImage(gameData[x].image))
-    // }
+    window.history.pushState("string", "Beardle", stripQueryStringAndHashFromPath(location.href))
+
 }
 
 const setImage = () => {
