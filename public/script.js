@@ -123,7 +123,7 @@ gameData = {
     },
     "04/27/2022": {
         "name": ["DAVID LETTERMAN", "DAVE LETTERMAN", "DAVE", "LETTERMAN"],
-        "image": "DAVID_LETTERMAN3.jpg",
+        "image": "DAVID_LETTERMAN.jpg",
         "issue": "24"
     }
 
@@ -171,23 +171,45 @@ const stepMap = {
     7: 0
 }
 
+function imageExists(image_url){
 
+    var http = new XMLHttpRequest();
+    console.log(image_url)
+console.log(location.href + 'men/' + image_url)
+    http.open('HEAD', location.href+ 'men/' +image_url, false);
+    http.send();
+    console.log(http.status)
+    return http.status != 404;
+}
+
+const findLastSuccessfulImage = () => {
+    let exists = false;
+    let data;
+    let gameDataKeys = Object.keys(gameData)
+    for (let i = gameDataKeys.length-1; i > 0; i--) {
+        exists = imageExists(gameData[gameDataKeys[i]].image);
+        data = gameDataKeys[i]
+        if (exists) return data;
+    }
+
+    return data
+}
 
 const onLoad =(testDate) => {
     const urlSearchParams = new URLSearchParams(window.location.search);
     let paramObj = Object.fromEntries(urlSearchParams)
     let param = Object.values(paramObj)[0]
-    let lastPuzzle = Object.keys(gameData)[Object.keys(gameData).length -1]
-    todaysGameDate = testDate || (gameData[param] && (isPastPuzzle(param)) || Object.values(paramObj)[1] == 'admin') && param || getTodaysGameDate() || lastPuzzle;
+    let lastPuzzle = findLastSuccessfulImage()
+    todaysGameDate = testDate || (gameData[param] && (isPastPuzzle(param)) || Object.values(paramObj)[1] == 'admin') && param || getTodaysGameDate() && gameData[getTodaysGameDate()] || lastPuzzle;
     state.answer = gameData[todaysGameDate].name
     state.image = '/men/' + gameData[todaysGameDate].image
     state.issue = gameData[todaysGameDate].issue
     setImage();
     updateScoreCard();
-    for (let x in gameData) {
-        console.log(x)
-        console.log(isImage(gameData[x].image))
-    }
+    // for (let x in gameData) {
+    //     console.log(x)
+    //     console.log(isImage(gameData[x].image))
+    // }
 }
 
 const setImage = () => {
@@ -515,6 +537,7 @@ const openPastModal = () => {
     $('#past-modal-body').text('')
     let parent = document.createElement('div');
     for (date in gameData) {
+        console.log(date, isPastPuzzle(date))
         if (isPastPuzzle(date)) {
         let comp = document.createElement('div')
         let link = document.createElement('a')
@@ -551,8 +574,8 @@ const isPastPuzzle = (date) => {
     let today = getTodaysGameDate()
     date = date.split("/");
     today = today.split("/")
-    var newDate = new Date( date[2], date[1], date[0]).getTime();
-    var newToday = new Date( today[2], today[1], today[0]).getTime();
+    var newDate = new Date( date[2], date[0]-1, date[1]).getTime();
+    var newToday = new Date( today[2], today[0]-1, today[1]).getTime();
     return newDate <= newToday? true : false;
 }
 
@@ -574,7 +597,7 @@ const isImage = (image) => {
         let image_url = '/men/' + image
         http.open('HEAD', image_url, false);
         http.send();
-    console.log(http.status, 'status')
-    console.log(image_url)
+    // console.log(http.status, 'status')
+    // console.log(image_url)
         return http.status != 404;
 }
