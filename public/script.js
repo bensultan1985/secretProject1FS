@@ -123,7 +123,7 @@ gameData = {
     },
     "04/27/2022": {
         "name": ["DAVID LETTERMAN", "DAVE LETTERMAN", "DAVE", "LETTERMAN"],
-        "image": "DAVID_LETTERMAN2.jpg",
+        "image": "DAVID_LETTERMAN3.jpg",
         "issue": "24"
     }
 
