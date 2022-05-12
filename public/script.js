@@ -288,6 +288,7 @@ const checkWin = () => {
 }
 
 const checkGuess = () => {
+    state.inputValue = state.inputValue.trimEnd()
     if (state.answer.find((name) => name == state.inputValue)) {
         state.scoreCard[state.imageStep] = 'c'
         state.status = 'win';
