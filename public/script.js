@@ -125,6 +125,11 @@ gameData = {
         "name": ["DAVID LETTERMAN", "DAVE LETTERMAN", "DAVE", "LETTERMAN"],
         "image": "DAVID_LETTERMAN.jpg",
         "issue": "24"
+    },
+    "05/17/2022": {
+        "name": ["LIN MANUEL MIRANDA", "LIN MANUEL", "MANUEL MIRANDA", "HAMILTON", "LIN MIRANDA", "LIN MIRANDA MANUEL"],
+        "image": "LIN_MANUEL_MIRANDA.jpg",
+        "issue": "25"
     }
 
 }
