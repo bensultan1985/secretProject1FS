@@ -126,7 +126,7 @@ gameData = {
         "image": "DAVID_LETTERMAN.jpg",
         "issue": "24"
     },
-    "05/17/2022": {
+    "05/15/2022": {
         "name": ["LIN MANUEL MIRANDA", "LIN MANUEL", "MANUEL MIRANDA", "HAMILTON", "LIN MIRANDA", "LIN MIRANDA MANUEL"],
         "image": "LIN_MANUEL_MIRANDA.jpg",
         "issue": "25"
@@ -210,7 +210,10 @@ const onLoad =(testDate) => {
     let paramObj = Object.fromEntries(urlSearchParams)
     let param = Object.values(paramObj)[0]
     let lastPuzzle = findLastSuccessfulImage()
-    todaysGameDate = testDate || (gameData[param] && (isPastPuzzle(param)) || Object.values(paramObj)[1] == 'admin') && param || getTodaysGameDate() && gameData[getTodaysGameDate()] || lastPuzzle;
+    todaysGameDate = testDate || (gameData[param] && (isPastPuzzle(param)) || Object.values(paramObj)[1] == 'admin') && param || gameData[getTodaysGameDate()] && getTodaysGameDate() || lastPuzzle;
+    console.log(todaysGameDate)
+    console.log(    state.answer = gameData[todaysGameDate]
+        )
     state.answer = gameData[todaysGameDate].name
     state.image = '/men/' + gameData[todaysGameDate].image
     state.issue = gameData[todaysGameDate].issue
