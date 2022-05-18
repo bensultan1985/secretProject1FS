@@ -126,12 +126,21 @@ gameData = {
         "image": "DAVID_LETTERMAN.jpg",
         "issue": "24"
     },
-    "05/15/2022": {
+    "05/17/2022": {
         "name": ["LIN MANUEL MIRANDA", "LIN MANUEL", "MANUEL MIRANDA", "HAMILTON", "LIN MIRANDA", "LIN MIRANDA MANUEL"],
         "image": "LIN_MANUEL_MIRANDA.jpg",
         "issue": "25"
-    }
-
+    },
+    "05/18/2022": {
+        "name": ["JIM GAFFIGAN", "JIM GAFFAGIN", "JAMES GAFFIGAN"],
+        "image": "JIM_GAFFIGAN.jpg",
+        "issue": "26"
+    },
+    "05/19/2022": {
+        "name": ["HARRISON FORD", "HARRASIN FORD"],
+        "image": "HARRISON FORD.jpg",
+        "issue": "27"
+    },
 }
 
 const getTodaysGameDate = () => {
