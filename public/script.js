@@ -138,7 +138,7 @@ gameData = {
     },
     "05/19/2022": {
         "name": ["HARRISON FORD", "HARRASIN FORD"],
-        "image": "HARRISON FORD.jpg",
+        "image": "HARRISON_FORD.jpg",
         "issue": "27"
     },
 }
