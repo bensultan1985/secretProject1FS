@@ -141,6 +141,26 @@ gameData = {
         "image": "HARRISON_FORD.jpg",
         "issue": "27"
     },
+    "05/21/2022": {
+        "name": ["STEVE JOBS", "STEVE", "JOBS", "APPLE", "STEVEN JOBS"],
+        "image": "STEVE_JOBS.jpg",
+        "issue": "28"
+    },
+    "05/22/2022": {
+        "name": ["JOHNNY DEPP", "JONNY DEPP", "JOHN DEPP", "DEPP", "JOHNNY"],
+        "image": "JOHNNY_DEPP.jpg",
+        "issue": "29"
+    },
+    "05/23/2022": {
+        "name": ["DUSTIN DIAMOND", "DUSTIN", "DIAMOND", "SCREECH"],
+        "image": "DUSTIN_DIAMOND.jpg",
+        "issue": "30"
+    },
+    "05/24/2022": {
+        "name": ["KEANU REEVES", "KEANU REEVE", "KEANU REAVES", "KIANU REEVES", "NEO"],
+        "image": "KEANU_REEVES.jpg",
+        "issue": "31"
+    },
 }
 
 const getTodaysGameDate = () => {
