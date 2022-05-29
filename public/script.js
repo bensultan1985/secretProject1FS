@@ -162,7 +162,7 @@ gameData = {
         "issue": "31"
     },
     "05/29/2022": {
-        "name": ["GEOGE LOPEZ", "GEORGE", "LOPEZ", "JORGE LOPEZ", "GEORGE LOPES"],
+        "name": ["GEORGE LOPEZ", "GEORGE", "LOPEZ", "JORGE LOPEZ", "GEORGE LOPES"],
         "image": "GEORGE_LOPEZ.jpg",
         "issue": "32"
     },
