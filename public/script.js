@@ -161,6 +161,27 @@ gameData = {
         "image": "KEANU_REEVES.jpg",
         "issue": "31"
     },
+    "05/29/2022": {
+        "name": ["GEOGE LOPEZ", "GEORGE", "LOPEZ", "JORGE LOPEZ", "GEORGE LOPES"],
+        "image": "GEORGE_LOPEZ.jpg",
+        "issue": "32"
+    },
+    "05/30/2022": {
+        "name": ["ICE CUBE", "O'SHEA JACKSON"],
+        "image": "ICE_CUBE.jpg",
+        "issue": "33"
+    },
+    "05/31/2022": {
+        "name": ["JEFF GOLDBLUM", "JEFF GOLDBLOOM", "JEFFREY GOLDBLUM"],
+        "image": "JEFF GOLDBLUM.jpg",
+        "issue": "34"
+    },
+    "06/01/2022": {
+        "name": ["RICK ROSS", "RICK", "ROSS"],
+        "image": "RICK_ROSS2.jpg",
+        "issue": "35"
+    },
+
 }
 
 const getTodaysGameDate = () => {
