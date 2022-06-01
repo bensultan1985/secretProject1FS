@@ -173,7 +173,7 @@ gameData = {
     },
     "05/31/2022": {
         "name": ["JEFF GOLDBLUM", "JEFF GOLDBLOOM", "JEFFREY GOLDBLUM"],
-        "image": "JEFF GOLDBLUM.jpg",
+        "image": "JEFF_GOLDBLUM.jpg",
         "issue": "34"
     },
     "06/01/2022": {
