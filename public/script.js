@@ -181,6 +181,16 @@ gameData = {
         "image": "RICK_ROSS2.jpg",
         "issue": "35"
     },
+    "06/02/2022": {
+        "name": ["JEFF BRIDGES", "JEFFREY BRIDGES", "BRIDGES", "JEFF"],
+        "image": "JEFF_BRIDGES.jpg",
+        "issue": "36"
+    },
+    "06/03/2022": {
+        "name": ["RICKY GERVAIS", "RICARDO GERVAIS", "RICKY", "GERVAIS", "DAVID BRENT", "RICKY JERVAIS", "RICKY GERVASE", "RICKY JERVASE"],
+        "image": "RICKY_GERVAIS.jpg",
+        "issue": "37"
+    },
 
 }
 
