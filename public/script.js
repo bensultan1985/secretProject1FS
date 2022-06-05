@@ -191,6 +191,22 @@ gameData = {
         "image": "RICKY_GERVAIS.jpg",
         "issue": "37"
     },
+    "06/05/2022": {
+        "name": ["JACK BLACK", "JACK", "BLACK", "SCHOOL OF ROCK", "JACK BLAK"],
+        "image": "JACK_BLACK.jpg",
+        "issue": "38"
+    },
+    "06/06/2022": {
+        "name": ["MARTIN LAWRENCE", "MARTIN", "LAWRENCE", "MARTIN LARENCE", "MARTEN LAWRENCE"],
+        "image": "MARTIN_LAWRENCE.jpg",
+        "issue": "39"
+    },
+    "06/07/2022": {
+        "name": ["RUSSELL BRAND", "RUSSEL BRAND", "RUSSEL BRANT", "RUSSEL", "BRAND", "ALDOUS SNOW"],
+        "image": "RUSSELL_BRAND.jpg",
+        "issue": "40"
+    },
+
 
 }
 
@@ -642,6 +658,14 @@ const closePastModal = () => {
     $('#exampleModalLong').modal('hide')
 }
 
+const openBlogModal = () => {
+    $('#blogModal').modal('show')
+}
+
+const closeBlogModal = () => {
+    $('#blogModal').modal('hide')
+}
+
 const isPastPuzzle = (date) => {
     let today = getTodaysGameDate()
     date = date.split("/");
@@ -673,3 +697,8 @@ const isImage = (image) => {
     // console.log(image_url)
         return http.status != 404;
 }
+
+(document.getElementById('sultanbros')).addEventListener('click', () => {
+    window.open(
+        "https://www.bensultan.com", "_blank");
+})

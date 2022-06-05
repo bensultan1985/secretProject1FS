@@ -105,11 +105,14 @@ $(document).ready(function() {
      crossorigin="anonymous"></script>
 <div id="footer">©2022 <span id="sultanbros">BS Games</span>
     
-    <div onclick="openPastModal()" class="" data-toggle="modal" style="display: inline-block;background:gray; color:white; cursor:pointer;padding: 0px 10px;border-radius: 4px;" data-target="#exampleModalLong">
-        past puzzles
+    <div onclick="openPastModal()" class="" data-toggle="modal" style="display: inline-block;background:green; color:white; cursor:pointer;padding: 0px 10px;border-radius: 4px;font-size:13px;" data-target="#exampleModalLong">
+        More Beardle Puzzles
     </div>
+    <div onclick="openBlogModal()" class="" data-toggle="modal" style="display: inline-block;background:#F7B02B; color:black; cursor:pointer;padding: 0px 10px;border-radius: 4px; border-width: 1px;border-color: black;margin-left: 2px;font-size:13px;" data-target="#blogModal">
+      Beardle Blog
+  </div>
 
-<div style="float: right;padding-right:10px; padding-left:10px;" class="fb-share-button" data-href="https://beardle.app" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbeardle.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<div style="padding-right:10px; padding-left:4px;" class="fb-share-button" data-href="https://beardle.app" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbeardle.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 </div>
 
 
@@ -132,6 +135,35 @@ $(document).ready(function() {
       </div>
     </div>
   </div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="blogModal" tabindex="-1" role="dialog" aria-labelledby="blogModalTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="BlogModalTitle">Beardle Blog</h5>
+        <button type="button" class="close" onclick="closeBlogModal()" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="blog-modal-body">
+        <h5>Beardle Blog</h5>
+          <h6 style="text-align:left">06/04/2022</h6>
+          <p style="text-align:left">
+            Hello Beardle Lovers! I created this blog to have a direct line of communication from BS Games to our growing fan base. Thank you all for trying out our silly little game.
+            <br><br>
+            I will keep this first post to a tight trim. I want to remind players that if you miss a puzzle one day, you can always click "More Beardle Puzzles" to play past games. Also, I was recently featured on episode 118 of the Complaints and Observations podcast. Just look it up in the podcast app to listen to the interview.
+            <br><br>
+            Ben
+        </p>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

@@ -146,7 +146,7 @@ font-size: 1.2rem;
 }
 
 #footer {
-    text-align: left;
+    text-align: center;
     /* margin-top: 20px; */
     margin-bottom: 14px;
     padding-right: 20px;
@@ -170,6 +170,7 @@ font-size: 1.2rem;
     background: white;
     border-color: rgb(0, 73, 128);
     color: rgb(0, 73, 128);
+    cursor:pointer;
 }
 
 .add-border {
