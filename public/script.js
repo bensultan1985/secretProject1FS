@@ -255,11 +255,8 @@ const stepMap = {
 function imageExists(image_url){
 
     var http = new XMLHttpRequest();
-    console.log(image_url)
-console.log(location.href + 'men/' + image_url)
     http.open('HEAD', location.href+ 'men/' +image_url, false);
     http.send();
-    console.log(http.status)
     return http.status != 404;
 }
 
@@ -287,9 +284,6 @@ const onLoad =(testDate) => {
     let param = Object.values(paramObj)[0]
     let lastPuzzle = findLastSuccessfulImage()
     todaysGameDate = testDate || (gameData[param] && (isPastPuzzle(param)) || Object.values(paramObj)[1] == 'admin') && param || gameData[getTodaysGameDate()] && getTodaysGameDate() || lastPuzzle;
-    console.log(todaysGameDate)
-    console.log(    state.answer = gameData[todaysGameDate]
-        )
     state.answer = gameData[todaysGameDate].name
     state.image = '/men/' + gameData[todaysGameDate].image
     state.issue = gameData[todaysGameDate].issue
@@ -624,8 +618,10 @@ function countdown(  minutes ) {
 const openPastModal = () => {
     $('#past-modal-body').text('')
     let parent = document.createElement('div');
-    for (date in gameData) {
-        console.log(date, isPastPuzzle(date))
+    let dates = Object.keys(gameData)
+    dates.reverse()
+
+    dates.forEach(date => {
         if (isPastPuzzle(date)) {
         let comp = document.createElement('div')
         let link = document.createElement('a')
@@ -649,7 +645,7 @@ const openPastModal = () => {
         link.appendChild(label)
         parent.appendChild(comp)
     }
-}
+})
     document.getElementById('past-modal-body').appendChild(parent)
     $('#exampleModalLong').modal('show')
 }
