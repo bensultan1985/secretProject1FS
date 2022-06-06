@@ -206,6 +206,11 @@ gameData = {
         "image": "RUSSELL_BRAND.jpg",
         "issue": "40"
     },
+    "06/08/2022": {
+        "name": ["DAVID BLAINE", "DAVID BLAIN", "DAVID BLANE", "BLAINE", "DAVE", "DAVID", "MAGICIAN"],
+        "image": "DAVID_BLAINE.jpg",
+        "issue": "41"
+    },
 
 
 }
