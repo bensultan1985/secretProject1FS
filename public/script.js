@@ -211,6 +211,21 @@ gameData = {
         "image": "DAVID_BLAINE.jpg",
         "issue": "41"
     },
+    "06/09/2022": {
+        "name": ["JOHN MALKOVICH", "JON MALKOVICH", "JOHN MALCOVICH", "JOHN MALCOVIC", "JOHN", "MALKOVICH"],
+        "image": "JOHN_MALKOVICH.jpg",
+        "issue": "42"
+    },
+    "06/10/2022": {
+        "name": ["TOBY KEITH", "TOBY KIETH", "TOBY", "KEITH", "TOBY KEITH COVEL"],
+        "image": "TOBY_KEITH.jpg",
+        "issue": "43"
+    },
+    "06/11/2022": {
+        "name": ["MATTHEW FOX", "MATT", "FOX", "MATT FOX", "LOST", "MATTHEW CHANDLER FOX", "JACK", "JACK SHEPHARD"],
+        "image": "MATTHEW_FOX.jpg",
+        "issue": "44"
+    },
 
 
 }
