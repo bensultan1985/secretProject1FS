@@ -226,8 +226,6 @@ gameData = {
         "image": "MATTHEW_FOX.jpg",
         "issue": "44"
     },
-
-
 }
 
 const getTodaysGameDate = () => {
