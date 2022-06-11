@@ -241,6 +241,16 @@ gameData = {
         "image": "HARRY_STYLES.jpg",
         "issue": "47"
     },
+    "06/15/2022": {
+        "name": ["BILL MURRAY", "BILL MURRY", "WILLIAM MURRAY", "BILL", "MURRAY"],
+        "image": "BILL_MURRAY.jpg",
+        "issue": "48"
+    },
+    "06/16/2022": {
+        "name": ["BRUCE LEE", "BRUCE", "LEE"],
+        "image": "BRUCE_LEE.jpg",
+        "issue": "49"
+    },
 }
 
 const getTodaysGameDate = () => {
