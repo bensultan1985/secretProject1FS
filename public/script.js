@@ -226,6 +226,21 @@ gameData = {
         "image": "MATTHEW_FOX.jpg",
         "issue": "44"
     },
+    "06/12/2022": {
+        "name": ["RICHARD BRANSON", "SIR RICHARD BRANSON", "RICHARD BRANDSEN", "VIRGIN", "RICHARD", "BRANSON"],
+        "image": "RICHARD_BRANSON.jpg",
+        "issue": "45"
+    },
+    "06/13/2022": {
+        "name": ["JON VOIGHT", "JOHN VOIGHT", "JOHN VOIGT", "JOHN VOIT", "JON", "VOIGHT"],
+        "image": "JOHN_VOIGHT.jpg",
+        "issue": "46"
+    },
+    "06/14/2022": {
+        "name": ["HARRY STYLES", "HARRY STILES", "HARRY", "STYLES", "ONE DIRECTION"],
+        "image": "HARRY_STYLES.jpg",
+        "issue": "47"
+    },
 }
 
 const getTodaysGameDate = () => {
