@@ -251,6 +251,11 @@ gameData = {
         "image": "BRUCE_LEE.jpg",
         "issue": "49"
     },
+    "06/17/2022": {
+        "name": ["DAVID DUCHOVNY", "DAVID DUCHOVENY", "DAVID DUKOVNY", "DAVID", "DUCHOVNY", "AGENT MOULDER", "MOULDER"],
+        "image": "DAVID_DUCHOVNY.jpg",
+        "issue": "50"
+    },
 }
 
 const getTodaysGameDate = () => {
