@@ -233,7 +233,7 @@ gameData = {
     },
     "06/13/2022": {
         "name": ["JON VOIGHT", "JOHN VOIGHT", "JOHN VOIGT", "JOHN VOIT", "JON", "VOIGHT"],
-        "image": "JOHN_VOIGHT.jpg",
+        "image": "JON_VOIGHT.jpg",
         "issue": "46"
     },
     "06/14/2022": {
