@@ -39,12 +39,14 @@ $(document).ready(function() {
     <title>Beardle</title>
 </head>
 <body onload="onLoad()">
-    <div id="header" >
+    <div id="header" class="header-container">
+      <div>
     <h1  class="header" style="cursor:pointer; display: inline">Beardle<img src="icon.jpeg" class="beard-icon"/></h1>
-    <h5 style="color:rgb(0, 200, 255);display: inline">Beta</h5>
+    <!-- <h5 style="color:rgb(0, 200, 255);display: inline">Beta</h5> -->
 </div>
-    <h4>New Beards Daily</h4>
-    <p id="intro" style="padding: 0px 10px">Guess the person behind the beard or click "reveal more" for a clue:</p>
+    <h5 style="color: white;background-color: rgb(103, 60, 6);margin-bottom: 0px">New Beards Daily</h5>
+  </div>
+    <p id="intro" style="padding: 0px 10px; max-width: 440px; margin: auto;">Guess the person behind the beard or click "reveal more" for a clue:</p>
     <div id="countdown-clock" style="margin-bottom: 10px; display: none;">
         <input type="hidden" id="set-time" value="1"/>
 <span>
@@ -103,7 +105,7 @@ $(document).ready(function() {
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=1004496683834041&autoLogAppEvents=1" nonce="FLd1tc61"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3036163731284966"
      crossorigin="anonymous"></script>
-<div id="footer">
+<div id="footer" style="text-align: center;">
   <!-- ©2022  -->
   <div id="footer-top">
     <div onclick="openPastModal()" class="" data-toggle="modal" style="display: inline-block;background:green; color:white; cursor:pointer;padding: 4px 10px 0px 10px;border-radius: 4px;" data-target="#exampleModalLong">
@@ -113,7 +115,7 @@ $(document).ready(function() {
     Blog
 </div>
 
-<div style="padding-right:10px; padding-left:4px;" class="fb-share-button" data-href="https://beardle.app" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbeardle.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<div style="padding-left:4px;" class="fb-share-button" data-href="https://beardle.app" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbeardle.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
   </div>
   <div id="footer-bottom" style="margin-top: 12px;">©2022  <span id="sultanbros">BS Games</span>
