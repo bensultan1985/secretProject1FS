@@ -256,6 +256,51 @@ gameData = {
         "image": "DAVID_DUCHOVNY.jpg",
         "issue": "50"
     },
+    "06/19/2022": {
+        "name": ["ADAM DRIVER", "ADAM DIVER"],
+        "image": "ADAM_DRIVER.jpg",
+        "issue": "51"
+    },
+    "06/20/2022": {
+        "name": ["BILLY CRYSTAL", "WILLIAM CRYSTAL", "BILLY CHRISTAL", "BILL CRYSTAL", "MR. SATURDAY NIGHT", "BILLY", "CRYSTAL"],
+        "image": "BILLY_CRYSTAL.jpg",
+        "issue": "52"
+    },
+    "06/21/2022": {
+        "name": ["CHADWICK BOSEMAN", "CHAD BOSEMAN", "CHADWICK BOSMAN", "CHADWICK", "BOSEMAN"],
+        "image": "CHADWICK_BOSEMAN.jpg",
+        "issue": "53"
+    },
+    "06/22/2022": {
+        "name": ["JARED LETO", "JARED LETTO", "JARED", "LETO"],
+        "image": "JARED_LETO.jpg",
+        "issue": "54"
+    },
+    "06/23/2022": {
+        "name": ["BURT REYNOLDS", "BURT", "REYNOLDS", "BURT RENOLDS", "BURT REANOLDS"],
+        "image": "BURT_REYNOLDS.jpg",
+        "issue": "55"
+    },
+    "06/24/2022": {
+        "name": ["BRADLEY COOPER", "BRAD COOPER", "BRADLEY", "COOPER"],
+        "image": "BRADLEY_COOPER.jpg",
+        "issue": "56"
+    },
+    "06/25/2022": {
+        "name": ["BILLY MAYES", "BILLY MAYS", "BILL MAYES", "BILL MAYS", "BILLY", "MAYES", "OXYCLEAN"],
+        "image": "BILLY_MAYES.jpg",
+        "issue": "57"
+    },
+    "06/26/2022": {
+        "name": ["DALE EARNHARDT JR.", "DALE EARNHARDT", "DALE EARNHART JR.", "DALE EARNHART JR", "DALE EARNHARDT JR", "DALE", "EARNHARDT"],
+        "image": "DALE_EARNHARDT.jpg",
+        "issue": "58"
+    },
+    "06/27/2022": {
+        "name": ["RICKY MARTIN", "RICKY", "MARTIN", "LA VIDA LOCA"],
+        "image": "RICKY_MARTIN.jpg",
+        "issue": "59"
+    },
 }
 
 const getTodaysGameDate = () => {
