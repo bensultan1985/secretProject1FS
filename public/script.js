@@ -301,6 +301,31 @@ gameData = {
         "image": "RICKY_MARTIN.jpg",
         "issue": "59"
     },
+    "06/28/2022": {
+        "name": ["MAC MILLER", "MILLER", "MAC"],
+        "image": "MAC_MILLER.jpg",
+        "issue": "60"
+    },
+    "06/29/2022": {
+        "name": ["CHARLIE SHEEN", "CHARLES SHEEN", "CHARLIE ESTEVEZ", "CHARLIE", "SHEEN", "WINNING", "TIGER BLOOD"],
+        "image": "CHARLIE_SHEEN.jpg",
+        "issue": "61"
+    },
+    "06/30/2022": {
+        "name": ["BILL BURR", "WILLIAM BURR", "BILL", "BURR"],
+        "image": "BILL_BURR.jpg",
+        "issue": "62"
+    },
+    "06/31/2022": {
+        "name": ["SAMUEL L. JACKSON", "SAMUEL L JACKSON", "SAMUEL JACKSON", "SAM JACKSON", "JACKSON", "SAMUEL"],
+        "image": "SAMUEL_JACKSON.jpg",
+        "issue": "63"
+    },
+    "07/01/2022": {
+        "name": ["COLIN JOST", "COLLIN JOST", "COLIN JOSTE", "COLIN", "JOST"],
+        "image": "COLIN_JOST.jpg",
+        "issue": "64"
+    },
 }
 
 const getTodaysGameDate = () => {
