@@ -326,6 +326,26 @@ gameData = {
         "image": "COLIN_JOST.jpg",
         "issue": "64"
     },
+    "07/02/2022": {
+        "name": ["JOHN STAMOS", "JON STAMOS", 'UNCLE JESSE', "JOHN", "STAMOS"],
+        "image": "JOHN_STAMOS.jpg",
+        "issue": "65"
+    },
+    "07/03/2022": {
+        "name": ["LANCE ARMSTRONG", "LANCE", "ARMSTRONG"],
+        "image": "LANCE_ARMSTRONG.jpg",
+        "issue": "66"
+    },
+    "07/04/2022": {
+        "name": ["SACHA BARON COHEN", "SASHA BARON COHEN", "SASHA BARRON COHEN", "BORAT", "BRUNO", "SACHA", "BARON", "COHEN"],
+        "image": "LANCE_ARMSTRONG.jpg",
+        "issue": "67"
+    },
+    "07/05/2022": {
+        "name": ["BONO", "BONNO", "U2"],
+        "image": "BONO.jpg",
+        "issue": "68"
+    },
 }
 
 const getTodaysGameDate = () => {
