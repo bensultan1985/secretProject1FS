@@ -338,7 +338,7 @@ gameData = {
     },
     "07/04/2022": {
         "name": ["SACHA BARON COHEN", "SASHA BARON COHEN", "SASHA BARRON COHEN", "BORAT", "BRUNO", "SACHA", "BARON", "COHEN"],
-        "image": "LANCE_ARMSTRONG.jpg",
+        "image": "SACHA_BARON_COHEN.jpg",
         "issue": "67"
     },
     "07/05/2022": {
