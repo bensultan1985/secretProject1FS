@@ -346,6 +346,26 @@ gameData = {
         "image": "BONO.jpg",
         "issue": "68"
     },
+    "07/06/2022": {
+        "name": ["CONAN O'BRIEN", "CONAN", "CONAN OBRIEN", "O'BRIEN", "CONAN CHRISTOPHER O'BRIEN"],
+        "image": "CONAN_OBRIEN.jpg",
+        "issue": "69"
+    },
+    "07/07/2022": {
+        "name": ["BILLIE JOE ARMSTRONG", "BILLY JOE ARMSTRONG", "BILLIE JO ARMSTRONG", "BILLY JO ARMSTRONG", "BILLIE JO", "BILLY JOE", "BILLIE JOE", "BILLY JO", "GREEN DAY"],
+        "image": "BILLIE_JOE_ARMSTRONG.jpg",
+        "issue": "70"
+    },
+    "07/08/2022": {
+        "name": ["WOODY HARRELSON", "WOODY HARLESON", "WOODIE HARRELSON", "WOODIE HARRLESON", "WOODY HARLESON", "CHEERS", "DAKOTA"],
+        "image": "WOODY_HARRELSON.jpg",
+        "issue": "71"
+    },
+    "07/09/2022": {
+        "name": ["EDWARD NORTON", "ED NORTON", "EDWARD NORTEN", "ED NORTEN"],
+        "image": "EDWARD_NORTON.jpg",
+        "issue": "72"
+    },
 }
 
 const getTodaysGameDate = () => {
