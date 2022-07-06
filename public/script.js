@@ -366,6 +366,16 @@ gameData = {
         "image": "EDWARD_NORTON.jpg",
         "issue": "72"
     },
+    "07/10/2022": {
+        "name": ["ELVIS PRESLEY", "ELVIS"],
+        "image": "ELVIS_PRESLEY.jpg",
+        "issue": "73"
+    },
+    "07/11/2022": {
+        "name": ["BRUCE WILLIS", "BRUCE", "WILLIS"],
+        "image": "BRUCE_WILLIS.jpg",
+        "issue": "74"
+    },
 }
 
 const getTodaysGameDate = () => {
