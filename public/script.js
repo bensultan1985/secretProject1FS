@@ -376,6 +376,106 @@ gameData = {
         "image": "BRUCE_WILLIS.jpg",
         "issue": "74"
     },
+    "07/12/2022": {
+        "name": ["DARIUS RUCKER", "DARIUS RUTGER", "DARIUS", "RUCKER", "HOOTIE", "HOOTIE AND THE BLOWFISH"],
+        "image": "DARIUS_RUCKER.jpg",
+        "issue": "75"
+    },
+    "07/13/2022": {
+        "name": ["JOHN CANDY", "JOHN", "CANDY", "UNCLE BUCK"],
+        "image": "JOHN_CANDY.jpg",
+        "issue": "76"
+    },
+    "07/14/2022": {
+        "name": ["PAUL SHAFFER", "PAUL", "SHAFFER", "PAUL SCHAFFER"],
+        "image": "PAUL_SHAFFER.jpg",
+        "issue": "77"
+    },
+    "07/15/2022": {
+        "name": ["AL GORE", "AL", "GORE"],
+        "image": "AL_GORE.jpg",
+        "issue": "78"
+    },
+    "07/16/2022": {
+        "name": ["BILLY RAY CYRUS", "BILLY RAY", "BILLY", "RAY", "ACHEY BREAKY HEART"],
+        "image": "BILLY_RAY_CYRUS.jpg",
+        "issue": "79"
+    },
+    "07/17/2022": {
+        "name": ["SETH MEYERS", "SETH MYERS", "SETH", "MEYERS"],
+        "image": "SETH_MEYERS.jpg",
+        "issue": "80"
+    },
+    "07/18/2022": {
+        "name": ["ELIJAH WOOD", "ELIJIAH WOOD", "ELIJAH WOODS", "ELIJIAH WOODS"],
+        "image": "ELIJAH_WOOD.jpg",
+        "issue": "81"
+    },
+    "07/19/2022": {
+        "name": ["DONALD GLOVER", "CHILDISH GAMBINO", "DONALD", "GLOVER"],
+        "image": "DONALD_GLOVER.jpg",
+        "issue": "82"
+    },
+    "07/20/2022": {
+        "name": ["ALEX TREBEK", "ALEX", "TREBEK", "JEOPARDY"],
+        "image": "ALEX_TREBEK.jpg",
+        "issue": "83"
+    },
+    "07/21/2022": {
+        "name": ["CARROT TOP", "CARROTTOP"],
+        "image": "CARROT_TOP.jpg",
+        "issue": "84"
+    },
+    "07/22/2022": {
+        "name": ["EDDIE MURPHY", "EDDIE MURPHEY", "EDDY MURPHY", "EDDY MURPHEY", "EDDIE", "MURPHY"],
+        "image": "EDDIE_MURPHY.jpg",
+        "issue": "85"
+    },
+    "07/23/2022": {
+        "name": ["JOHNNY KNOXVILLE", "JONNY KNOXVILLE", "JACKASS", "JOHNNY", "KNOXVILLE"],
+        "image": "JOHNNY_KNOXVILLE.jpg",
+        "issue": "86"
+    },
+    "07/24/2022": {
+        "name": ["MAX WEINBERG", "MAX WINEBERG", "MAX", "WEINBERG"],
+        "image": "MAX_WEINBERG.jpg",
+        "issue": "87"
+    },
+    "07/25/2022": {
+        "name": ["WILL FERRELL", "WILL FARRELL", "WILL FERREL", "WILL FARREL", "RON BURGUNDY"],
+        "image": "WILL_FERRELL.jpg",
+        "issue": "88"
+    },
+    "07/26/2022": {
+        "name": ["KEVIN SMITH", "KEVIN", "SMITH", "SILENT BOB"],
+        "image": "KEVIN_SMITH.jpg",
+        "issue": "89"
+    },
+    "07/27/2022": {
+        "name": ["DICK GREGORY", "DICK GREGGORY", "DICK", "GREGORY"],
+        "image": "DICK_GREGORY.jpg",
+        "issue": "90"
+    },
+    "07/28/2022": {
+        "name": ["PRINCE HARRY", "PRINCE", "HARRY"],
+        "image": "PRINCE_HARRY.jpg",
+        "issue": "91"
+    },
+    "07/29/2022": {
+        "name": ["TIM MEADOWS", "TIM", "MEADOWS"],
+        "image": "TIM_MEADOWS.jpg",
+        "issue": "92"
+    },
+    "07/30/2022": {
+        "name": ["TREY ANASTASIO", "TRAY ANASTASIO", "TRAY", "ANASTASIO", "PHISH"],
+        "image": "TREY_ANASTASIO.jpg",
+        "issue": "93"
+    },
+    "07/31/2022": {
+        "name": ["JIMMY FALLON", "JIMMY", "FALLON", "JIMMY FALON"],
+        "image": "JIMMY_FALLON.jpg",
+        "issue": "94"
+    },
 }
 
 const getTodaysGameDate = () => {
