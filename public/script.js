@@ -476,6 +476,31 @@ gameData = {
         "image": "JIMMY_FALLON.jpg",
         "issue": "94"
     },
+    "08/01/2022": {
+        "name": ["BILLY JOEL", "BILLIE JOEL", "BILLY", "JOEL", "BILLY JOELLE"],
+        "image": "BILLY_JOEL.jpg",
+        "issue": "95"
+    },
+    "08/02/2022": {
+        "name": ["RICHARD GERE", "RICHARD GEAR", "RICH GERE", "RICHARD", "GERE"],
+        "image": "RICHARD_GERE.jpg",
+        "issue": "96"
+    },
+    "08/03/2022": {
+        "name": ["PAUL NEWMAN", "PAUL", "NEWMAN"],
+        "image": "PAUL_NEWMAN.jpg",
+        "issue": "97"
+    },
+    "08/04/2022": {
+        "name": ["EARNEST HEMMINGWAY", "EARNEST", "HEMMINGWAY"],
+        "image": "EARNEST_HEMMINGWAY.jpg",
+        "issue": "98"
+    },
+    "08/05/2022": {
+        "name": ["FIDEL CASTRO", "FIDEL", "CASTRO"],
+        "image": "FIDEL_CASTRO.jpg",
+        "issue": "99"
+    },
 }
 
 const getTodaysGameDate = () => {
