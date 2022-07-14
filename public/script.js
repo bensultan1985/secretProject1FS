@@ -387,8 +387,8 @@ gameData = {
         "issue": "76"
     },
     "07/14/2022": {
-        "name": ["PAUL SHAFFER", "PAUL", "SHAFFER", "PAUL SCHAFFER"],
-        "image": "PAUL_SHAFFER.jpg",
+        "name": ["RICHARD GERE", "RICHARD GEAR", "RICH GERE", "RICHARD", "GERE"],
+        "image": "RICHARD_GERE.jpg",
         "issue": "77"
     },
     "07/15/2022": {
@@ -397,8 +397,8 @@ gameData = {
         "issue": "78"
     },
     "07/16/2022": {
-        "name": ["BILLY RAY CYRUS", "BILLY RAY", "BILLY", "RAY", "ACHEY BREAKY HEART"],
-        "image": "BILLY_RAY_CYRUS.jpg",
+        "name": ["PAUL SHAFFER", "PAUL", "SHAFFER", "PAUL SCHAFFER"],
+        "image": "PAUL_SHAFFER.jpg",
         "issue": "79"
     },
     "07/17/2022": {
@@ -482,8 +482,8 @@ gameData = {
         "issue": "95"
     },
     "08/02/2022": {
-        "name": ["RICHARD GERE", "RICHARD GEAR", "RICH GERE", "RICHARD", "GERE"],
-        "image": "RICHARD_GERE.jpg",
+        "name": ["BILLY RAY CYRUS", "BILLY RAY", "BILLY", "RAY", "ACHEY BREAKY HEART"],
+        "image": "BILLY_RAY_CYRUS.jpg",
         "issue": "96"
     },
     "08/03/2022": {
