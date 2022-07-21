@@ -501,6 +501,11 @@ gameData = {
         "image": "FIDEL_CASTRO.jpg",
         "issue": "99"
     },
+    "08/06/2022": {
+        "name": ["GEORGE CARLIN", "GEORGE", "CARLIN", "GEORGE KARLIN"],
+        "image": "GEORGE_CARLIN.jpg",
+        "issue": "100"
+    },
 }
 
 const getTodaysGameDate = () => {
