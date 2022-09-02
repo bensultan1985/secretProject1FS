@@ -506,6 +506,57 @@ gameData = {
         "image": "GEORGE_CARLIN.jpg",
         "issue": "100"
     },
+    "09/02/2022": {
+        "name": ["BEN STILLER", "BENJAMIN STILLER", "BEN", "STILLER", "MEET THE PARENTS", "ZOOLANDER"],
+        "image": "BEN_STILLER.jpg",
+        "issue": "101"
+    },
+    "09/03/2022": {
+        "name": ["MICHAEL PHELPS", "MICHAEL", "PHELPS", "OLYMPICS", "SWIMMER"],
+        "image": "MICHAEL_PHELPS.jpg",
+        "issue": "102"
+    },
+    "09/04/2022": {
+        "name": ["NICOLAS CAGE", "NIKOLAS CAGE", "NICHOLAS CAGE", "NICK CAGE", "NICOLAS", "CAGE", "NATIONAL TREASURE"],
+        "image": "NICOLAS_CAGE.jpg",
+        "issue": "103"
+    },
+    "09/05/2022": {
+        "name": ["MEL GIBSON", "MEL", "GIBSON"],
+        "image": "MEL_GIBSON.jpg",
+        "issue": "104"
+    },
+    "09/06/2022": {
+        "name": ["RYAN REYNOLDS", "RYAN RENOLDS", "RYAN", "REYNOLDS", "DEADPOOL"],
+        "image": "RYAN_REYNOLDS.jpg",
+        "issue": "105"
+    },
+    "09/07/2022": {
+        "name": ["OMARION"],
+        "image": "OMARION.jpg",
+        "issue": "106"
+    },
+    "09/08/2022": {
+        "name": ["KUMAL NANJIANI", "KUMAL", "NANJIANI", "KUMAL NANJANI", "KUMAL NIANJANI", "THE BIG SICK"],
+        "image": "KUMAL_NANJIANI.jpg",
+        "issue": "107"
+    },
+    "09/09/2022": {
+        "name": ["CHRIS PRATT", "CHRIS PRAT", "CHRIS", "PRATT"],
+        "image": "CHRIS_PRATT.jpg",
+        "issue": "108"
+    },
+    "09/10/2022": {
+        "name": ["ANDREW GARFIELD", "ANDREW", "GARFIELD", "SPIDERMAN"],
+        "image": "ANDREW_GARFIELD.jpg",
+        "issue": "109"
+    },
+    "09/11/2022": {
+        "name": ["TOM CRUISE"],
+        "image": "TOM_CRUISE.jpg",
+        "issue": "110"
+    },
+    
 }
 
 const getTodaysGameDate = () => {
