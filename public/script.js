@@ -556,6 +556,16 @@ gameData = {
         "image": "TOM_CRUISE.jpg",
         "issue": "110"
     },
+    "09/13/2022": {
+        "name": ["JOHN LEGEND", "JOHN", "LEGEND", "JON LEGEND"],
+        "image": "JOHN_LEGEND.jpg",
+        "issue": "111"
+    },
+    "09/14/2022": {
+        "name": ["JOHN CHO", "JON CHO", "JOHN CHOE", "JOHN", "CHO"],
+        "image": "JOHN_CHO.jpg",
+        "issue": "112"
+    },
     
 }
 
