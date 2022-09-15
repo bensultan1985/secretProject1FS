@@ -566,6 +566,16 @@ gameData = {
         "image": "JOHN_CHO.jpg",
         "issue": "112"
     },
+    "09/15/2022": {
+        "name": ["DAVID SCHWIMMER", "DAVID SWIMMER", "DAVID", "SCHWIMMER", "ROSS", "FRIENDS"],
+        "image": "DAVID_SCHWIMMER.jpg",
+        "issue": "113"
+    },
+    "09/16/2022": {
+        "name": ["SALMAN RUSHDIE", "SALMON RUSHDIE", "SAMAN RUSHDIE", "SALMAN RUSHDY"],
+        "image": "SALMAN_RUSHDIE.jpg",
+        "issue": "114"
+    },
     
 }
 
