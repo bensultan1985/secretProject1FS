@@ -576,6 +576,11 @@ gameData = {
         "image": "SALMAN_RUSHDIE.jpg",
         "issue": "114"
     },
+    "09/17/2022": {
+        "name": ["TONY ROBBINS", "TONY ROBINS", "TONY", "ROBBINS"],
+        "image": "TONY_ROBBINS.jpg",
+        "issue": "115"
+    },
     
 }
 
