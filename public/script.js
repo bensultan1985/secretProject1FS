@@ -581,6 +581,17 @@ gameData = {
         "image": "TONY_ROBBINS.jpg",
         "issue": "115"
     },
+    "09/21/2022": {
+        "name": ["KAL PENN", "TAJ", "KAL", "PENN", "KUMAR"],
+        "image": "KAL_PENN.jpg",
+        "issue": "116"
+    },
+    "09/22/2022": {
+        "name": ["NICK JONAS", "NICK", "JONAS", "JONAS BROTHERS"],
+        "image": "NICK_JONAS.jpg",
+        "issue": "117"
+    },
+    
     
 }
 
