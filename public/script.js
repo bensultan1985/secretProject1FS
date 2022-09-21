@@ -591,7 +591,11 @@ gameData = {
         "image": "NICK_JONAS.jpg",
         "issue": "117"
     },
-    
+    "09/23/2022": {
+        "name": ["JAMES GANDOLFINI", "JAMES", "GANDOLFINI", "TONY", "TONY SOPRANO", "THE SOPRANOS"],
+        "image": "JAMES_GANDOLFINI.jpg",
+        "issue": "118"
+    },
     
 }
 
