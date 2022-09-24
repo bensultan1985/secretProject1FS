@@ -596,7 +596,36 @@ gameData = {
         "image": "JAMES_GANDOLFINI.jpg",
         "issue": "118"
     },
-    
+    "09/24/2022": {
+        "name": ["BLAKE SHELTON", "BLAKE", "SHELTON", "GWEN STEFANI'S HUSBAND", "THE VOICE"],
+        "image": "BLAKE_SHELTON.jpg",
+        "issue": "119"
+    },
+    "09/25/2022": {
+        "name": ["CHRIS TUCKER", "CHRIS", "TUCKER", "RUSH HOUR"],
+        "image": "CHRIS_TUCKER.jpg",
+        "issue": "120"
+    },
+    "09/26/2022": {
+        "name": ["ZAC EFRON", "ZACK EFRON", "ZAC", "EFRON", "HIGH SCHOOL MUSICAL"],
+        "image": "ZAC_EFRON.jpg",
+        "issue": "121"
+    },
+    "09/27/2022": {
+        "name": ["JULIAN ASSANGE", "JULIAN", "ASSANGE", "JULIEN ASSANGE", "JULIAN ASANGE", "WIKILEAKS"],
+        "image": "JULIAN_ASSANGE.jpg",
+        "issue": "122"
+    },
+    "09/28/2022": {
+        "name": ["50 CENT", "CURTIS JACKSON", "CURTIS", "JACKSON"],
+        "image": "50_CENT.jpg",
+        "issue": "123"
+    },
+    "09/29/2022": {
+        "name": ["MICHAEL BUBLE", "MICHAEL", "BUBLE"],
+        "image": "MICHAEL_BUBLE.jpg",
+        "issue": "124"
+    },
 }
 
 const getTodaysGameDate = () => {
