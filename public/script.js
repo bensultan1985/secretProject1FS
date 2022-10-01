@@ -626,6 +626,11 @@ gameData = {
         "image": "MICHAEL_BUBLE.jpg",
         "issue": "124"
     },
+    "10/01/2022": {
+        "name": ["SEAN CONNERY, SHAWN CONNERY", "JAMES BOND", "SEAN", "CONNERY"],
+        "image": "SEAN_CONNERY.jpg",
+        "issue": "125"
+    },
 }
 
 const getTodaysGameDate = () => {
