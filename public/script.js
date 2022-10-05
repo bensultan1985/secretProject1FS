@@ -631,6 +631,26 @@ gameData = {
         "image": "SEAN_CONNERY.jpg",
         "issue": "125"
     },
+    "10/06/2022": {
+        "name": ["CORY FELDMAN", "CORRY FELDMAN", "CORY FELDMEN", "CORY", "FELDMAN"],
+        "image": "CORY_FELDMAN.jpg",
+        "issue": "126"
+    },
+    "10/07/2022": {
+        "name": ["DMX", "EARL SIMMONS"],
+        "image": "DMX.jpg",
+        "issue": "127"
+    },
+    "10/08/2022": {
+        "name": ["LARRY THE CABLE GUY", "DAN WHITNEY", "LARRY", "CABLE GUY", "THE CABLE GUY"],
+        "image": "LARRY_THE_CABLE_GUY.jpg",
+        "issue": "128"
+    },
+    "10/09/2022": {
+        "name": ["RON HOWARD", "RON", "HOWARD", "RICHIE CUNNINGHAM"],
+        "image": "RON_HOWARD.jpg",
+        "issue": "129"
+    },
 }
 
 const getTodaysGameDate = () => {
