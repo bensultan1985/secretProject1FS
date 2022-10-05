@@ -651,6 +651,11 @@ gameData = {
         "image": "RON_HOWARD.jpg",
         "issue": "129"
     },
+    "10/10/2022": {
+        "name": ["ROBIN WILLIAMS", "ROBIN", "WILLIAMS", "ROBBIN WILLIAMS"],
+        "image": "ROBIN_WILLIAMS.jpg",
+        "issue": "130"
+    },
 }
 
 const getTodaysGameDate = () => {
