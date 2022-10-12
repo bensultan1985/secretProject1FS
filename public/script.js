@@ -656,6 +656,31 @@ gameData = {
         "image": "ROBIN_WILLIAMS.jpg",
         "issue": "130"
     },
+    "10/12/2022": {
+        "name": ["WOLF BLITZER", "WOLF BLITZEN", "WOLF", "BLITZER", "WOLFE BLITZER"],
+        "image": "WOLF_BLITZER.jpg",
+        "issue": "131"
+    },
+    "10/13/2022": {
+        "name": ["TIGER WOODS", "TIGER WOOD", "TIGER", "WOODS", "GOLF"],
+        "image": "TIGER_WOODS.jpg",
+        "issue": "132"
+    },
+    "10/14/2022": {
+        "name": ["SIMON COWELL", "SIMON", "COWELL", "SIMON COWEL"],
+        "image": "SIMON_COWELL.jpg",
+        "issue": "133"
+    },
+    "10/15/2022": {
+        "name": ["TOM WELLING", "TOM WELLINGTON", "THOMAS WELLING", "TOM", "WELLING", "SMALLVILLE", "SUPERMAN", "CLARK KENT"],
+        "image": "TOM_WELLING.jpg",
+        "issue": "134"
+    },
+    "10/16/2022": {
+        "name": ["JOSEPH GORDON-LEVITT", "JOSEPH GORDON LEVITT", "JOSEPH", "GORDON-LEVITT", "JOSEPH GORDON LEVITTE", "JOSEPH GORDON LEVIT", "ROBIN"],
+        "image": "JOSEPH_GORDON-LEVITT.jpg",
+        "issue": "135"
+    },
 }
 
 const getTodaysGameDate = () => {
