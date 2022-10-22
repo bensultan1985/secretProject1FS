@@ -1073,6 +1073,85 @@ gameData = {
     image: "BEN_KINGSLEY.jpg",
     issue: "137",
   },
+  "10/23/2022": {
+    name: ["TOM GREEN", "TOM", "GREEN"],
+    image: "TOM_GREEN.jpg",
+    issue: "138",
+  },
+  "10/24/2022": {
+    name: ["NATHAN LANE", "NATE LANE", "NATHAN", "LANE", "THE PRODUCERS"],
+    image: "NATHAN_LANE.jpg",
+    issue: "139",
+  },
+  "10/25/2022": {
+    name: ["MICHAEL J. FOX", "MICHAEL J FOX", "MICHAEL FOX"],
+    image: "MICHAEL_J_FOX.jpg",
+    issue: "140",
+  },
+  "10/26/2022": {
+    name: ["FRED DURST", "LIMP BIZKIT", "FRED", "DURST"],
+    image: "FRED_DURST.jpg",
+    issue: "141",
+  },
+  "10/27/2022": {
+    name: ["LIONEL RICHIE", "LIONEL RITCHIE"],
+    image: "LIONEL_RICHIE.jpg",
+    issue: "142",
+  },
+  "10/28/2022": {
+    name: ["MACAULEY CULKIN", "MCCAULEY CULKIN", "KEVIN MCCALLISTER"],
+    image: "MACAULEY_CULKIN.jpg",
+    issue: "143",
+  },
+  "10/29/2022": {
+    name: ["SAMMY HAGAR", "VAN HALEN", "SAM HAGAR"],
+    image: "SAMMY_HAGAR.jpg",
+    issue: "144",
+  },
+  "10/30/2022": {
+    name: ["GLENN BECK", "GLENN", "BECK", "GLEN BECK"],
+    image: "GLENN_BECK.jpg",
+    issue: "145",
+  },
+  "10/31/2022": {
+    name: [
+      "DAVE PORTNOY",
+      "DAVID PORTNOY",
+      "ONE BITE",
+      "EL PREZ",
+      "DAVEY PAGEVIEWS",
+    ],
+    image: "DAVE_PORTNOY.jpg",
+    issue: "146",
+  },
+  "11/01/2022": {
+    name: ["GEORGE CLINTON", "GEORGE", "CLINTON"],
+    image: "GEORGE_CLINTON.jpg",
+    issue: "147",
+  },
+  "11/02/2022": {
+    name: ["ELON MUSK"],
+    image: "ELON_MUSK.jpg",
+    issue: "148",
+  },
+  "11/03/2022": {
+    name: [
+      "ANDRE AGASSI",
+      "ANDRES AGASSI",
+      "ANDRE AGGASI",
+      "ANDRE AGASI",
+      "ANDRE",
+      "AGASSI",
+      "TENNIS",
+    ],
+    image: "ANDRE_AGASSI.jpg",
+    issue: "149",
+  },
+  "11/04/2022": {
+    name: ["SPIKE LEE", "SPIKE", "SPIKE JONZE"],
+    image: "SPIKE_LEE.jpg",
+    issue: "150",
+  },
 };
 
 const getTodaysGameDate = () => {
