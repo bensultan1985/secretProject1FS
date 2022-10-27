@@ -1152,6 +1152,62 @@ gameData = {
     image: "SPIKE_LEE.jpg",
     issue: "150",
   },
+  "11/05/2022": {
+    name: ["JOHN MAYER", "JOHN", "MAYER", "JOHN MAYOR"],
+    image: "JOHN_MAYER.jpg",
+    issue: "151",
+  },
+  "11/06/2022": {
+    name: ["KEVIN FEDERLINE", "KEVIN", "FEDERLINE", "K-FED", "KFED"],
+    image: "KEVIN_FEDERLINE.jpg",
+    issue: "152",
+  },
+  "11/07/2022": {
+    name: ["DJ KHALED", "DJ KALED", "DJ KAHLED", "WE THE BEST MUSIC"],
+    image: "DJ_KHALED.jpg",
+    issue: "153",
+  },
+  "11/08/2022": {
+    name: ["JAMES CORDEN", "JAMES", "CORDEN", "CARPOOL KARAOKE"],
+    image: "JAMES_CORDEN.jpg",
+    issue: "154",
+  },
+  "11/09/2022": {
+    name: [
+      "CAT STEVENS",
+      "YUSUF STEVENS",
+      "YUSUF CAT STEVENS",
+      "CAT",
+      "STEVENS",
+    ],
+    image: "CAT_STEVENS.jpg",
+    issue: "155",
+  },
+  "11/10/2022": {
+    name: ["TUPAC SHAKUR", "TUPAC", "2PAC"],
+    image: "TUPAC_SHAKUR.jpg",
+    issue: "156",
+  },
+  "11/11/2022": {
+    name: ["DAVE GROHL", "DAVE GROLL", "FOO FIGHTERS", "DAVE", "GROHL"],
+    image: "DAVE_GROHL.jpg",
+    issue: "157",
+  },
+  "11/12/2022": {
+    name: ["JOHN RITTER", "JOHN", "RITTER", "THREES COMPANY"],
+    image: "JOHN_RITTER.jpg",
+    issue: "158",
+  },
+  "11/13/2022": {
+    name: ["USHER", "USHER RAYMOND"],
+    image: "USHER.jpg",
+    issue: "159",
+  },
+  "11/14/2022": {
+    name: ["JACK WHITE", "WHITE STRIPES", "JACK", "WHITE"],
+    image: "JACK_WHITE.jpg",
+    issue: "160",
+  },
 };
 
 const getTodaysGameDate = () => {
