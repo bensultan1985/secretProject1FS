@@ -1208,6 +1208,60 @@ gameData = {
     image: "JACK_WHITE.jpg",
     issue: "160",
   },
+  "11/15/2022": {
+    name: ["ABRAHAM LINCOLN", "PRESIDENT LINCOLN", "LINCOLN"],
+    image: "ABRAHAM_LINCOLN.jpg",
+    issue: "161",
+  },
+  "11/16/2022": {
+    name: ["BECK"],
+    image: "BECK.jpg",
+    issue: "162",
+  },
+  "11/17/2022": {
+    name: ["SNOOP DOGG", "SNOOP", "SNOOP DOGGY DOGG", "CALVIN HARRIS"],
+    image: "SNOOP_DOGG.jpg",
+    issue: "163",
+  },
+  "11/17/2022": {
+    name: ["JERRY GARCIA", "GRATEFUL DEAD", "JERRY", "GARCIA"],
+    image: "JERRY_GARCIA.jpg",
+    issue: "164",
+  },
+  "11/18/2022": {
+    name: ["KEVIN BACON", "KEVIN", "BACON"],
+    image: "KEVIN_BACON.jpg",
+    issue: "165",
+  },
+  "11/19/2022": {
+    name: ["NAS"],
+    image: "NAS.jpg",
+    issue: "166",
+  },
+  "11/20/2022": {
+    name: ["SIGMUND FREUD", "FREUD"],
+    image: "SIGMUND_FREUD.jpg",
+    issue: "167",
+  },
+  "11/21/2022": {
+    name: ["JAMES HETFIELD", "METALLICA"],
+    image: "JAMES_HETFIELD.jpg",
+    issue: "168",
+  },
+  "11/22/2022": {
+    name: [
+      "MARTIN LUTHER KING JR.",
+      "MARTIN LUTHER KING JR",
+      "MARTIN LUTHER KING",
+      "MARTIN LUTHOR KING JUNIOR",
+      "MARTIN LUTHOR KING JR",
+      "MARTIN LUTHOR KING JR.",
+      "MARTIN LUTHOR KING JUNIOR",
+      "MARTIN LUTHOR KING",
+    ],
+    image: "MARTIN_LUTHER_KING.jpg",
+    issue: "169",
+  },
 };
 
 const getTodaysGameDate = () => {
