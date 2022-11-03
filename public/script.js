@@ -1262,6 +1262,11 @@ gameData = {
     image: "MARTIN_LUTHER_KING.jpg",
     issue: "169",
   },
+  "11/23/2022": {
+    name: ["RUSSELL PETERS", "RUSSELL", "PETERS", "RUSSEL PETERS"],
+    image: "RUSSELL_PETERS.jpg",
+    issue: "170",
+  },
 };
 
 const getTodaysGameDate = () => {
