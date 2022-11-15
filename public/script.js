@@ -1502,6 +1502,129 @@ gameData = {
     image: "RINGO_STARR.jpg",
     issue: "200",
   },
+  "12/23/2022": {
+    name: ["ISAAC HAYES", "CHEF", "ISAAC HAYS"],
+    image: "ISAAC_HAYES.jpg",
+    issue: "201",
+  },
+  "12/24/2022": {
+    name: ["ADAM LEVINE", "ADAM", "LEVINE", "ADAM LEVIGNE", "MAROON 5"],
+    image: "ADAM_LEVINE.jpg",
+    issue: "202",
+  },
+  "12/25/2022": {
+    name: ["MARK CUBAN", "MARC CUBAN", "MARK", "CUBAN"],
+    image: "MARK_CUBAN.jpg",
+    issue: "203",
+  },
+  "12/26/2022": {
+    name: ["VANILLA ICE", "ROB VAN WINKLE", "ROB VAN WYNKLE", "ROB"],
+    image: "VANILLA_ICE.jpg",
+    issue: "204",
+  },
+  "12/27/2022": {
+    name: [
+      "MICHAEL DOUGLAS",
+      "MICHAEL",
+      "DOUGLAS",
+      "MICHAEL DOUGLASS",
+      "MIKE DOUGLAS",
+    ],
+    image: "MICHAEL_DOUGLAS.jpg",
+    issue: "205",
+  },
+  "12/28/2022": {
+    name: ["GEORGE MICHAEL", "GEORGE", "MICHAEL", "GEORGE MICHAELS"],
+    image: "GEORGE_MICHAEL.jpg",
+    issue: "206",
+  },
+  "12/29/2022": {
+    name: [
+      "VOLODYMYR ZELENSKYY",
+      "VLADIMIR ZELENSKY",
+      "VLADIMIR ZELENSKI",
+      "UKRAINE",
+      "VLODYMYR",
+      "ZELENSKYY",
+      "VOLODYMYR ZELENSKY",
+    ],
+    image: "VOLODYMYR_ZELENSKYY.jpg",
+    issue: "207",
+  },
+  "12/30/2022": {
+    name: [
+      "CHUCK NORRIS",
+      "WALKER TEXAS RANGER",
+      "WALKER, TEXAS RANGER",
+      "CHUCK",
+      "NORRIS",
+    ],
+    image: "CHUCK_NORRIS.jpg",
+    issue: "208",
+  },
+  "12/31/2022": {
+    name: ["DAVID BOWIE", "DAVID", "BOWIE", "ZIGGY STARDUST"],
+    image: "DAVID_BOWIE.jpg",
+    issue: "209",
+  },
+  "01/01/2022": {
+    name: ["KELSEY GRAMMER", "KELSEY", "GRAMMER", "KELSEY GRAMMAR"],
+    image: "KELSEY_GRAMMER.jpg",
+    issue: "210",
+  },
+  "01/02/2022": {
+    name: ["FAT JOE", "LEAN BACK"],
+    image: "FAT_JOE.jpg",
+    issue: "211",
+  },
+  "01/03/2022": {
+    name: [
+      "MARK WAHLBERG",
+      "MARK WALLBERG",
+      "MARK WHALBERG",
+      "MARKY MARK",
+      "MARK",
+      "WAHLBERG",
+    ],
+    image: "MARK_WAHLBERG.jpg",
+    issue: "212",
+  },
+  "01/04/2022": {
+    name: ["COLONEL SANDERS", "KERNAL SANDERS", "SANDERS"],
+    image: "COLONEL_SANDERS.jpg",
+    issue: "213",
+  },
+  "01/05/2022": {
+    name: [
+      "PHILIP SEYMOUR HOFFMAN",
+      "PHILLIP SEYMOUR HOFFMAN",
+      "PHILIP SEYMORE HOFFMAN",
+    ],
+    image: "PHILIP_SEYMOUR_HOFFMAN.jpg",
+    issue: "214",
+  },
+  "01/06/2022": {
+    name: ["DOUG BENSON", "DOUG", "BENSON", "GETTING DOUG WITH HIGH"],
+    image: "DOUG_BENSON.jpg",
+    issue: "215",
+  },
+  "01/07/2022": {
+    name: ["STEVIE WONDER", "STEVY WONDER", "STEVE WONDER", "STEVIE", "WONDER"],
+    image: "STEVIE_WONDER.jpg",
+    issue: "216",
+  },
+  "01/08/2022": {
+    name: [
+      "STEVE AUSTIN",
+      "AUSTIN 3:16",
+      "STEVE",
+      "AUSTIN",
+      "STONE COLD",
+      "STONE COLD STEVE AUSTIN",
+    ],
+    image: "STEVE_AUSTIN.jpg",
+    issue: "217",
+  },
 };
 
 const getTodaysGameDate = () => {
