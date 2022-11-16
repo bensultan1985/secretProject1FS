@@ -1567,17 +1567,17 @@ gameData = {
     image: "DAVID_BOWIE.jpg",
     issue: "209",
   },
-  "01/01/2022": {
+  "01/01/2023": {
     name: ["KELSEY GRAMMER", "KELSEY", "GRAMMER", "KELSEY GRAMMAR"],
     image: "KELSEY_GRAMMER.jpg",
     issue: "210",
   },
-  "01/02/2022": {
+  "01/02/2023": {
     name: ["FAT JOE", "LEAN BACK"],
     image: "FAT_JOE.jpg",
     issue: "211",
   },
-  "01/03/2022": {
+  "01/03/2023": {
     name: [
       "MARK WAHLBERG",
       "MARK WALLBERG",
@@ -1589,12 +1589,12 @@ gameData = {
     image: "MARK_WAHLBERG.jpg",
     issue: "212",
   },
-  "01/04/2022": {
+  "01/04/2023": {
     name: ["COLONEL SANDERS", "KERNAL SANDERS", "SANDERS"],
     image: "COLONEL_SANDERS.jpg",
     issue: "213",
   },
-  "01/05/2022": {
+  "01/05/2023": {
     name: [
       "PHILIP SEYMOUR HOFFMAN",
       "PHILLIP SEYMOUR HOFFMAN",
@@ -1603,17 +1603,17 @@ gameData = {
     image: "PHILIP_SEYMOUR_HOFFMAN.jpg",
     issue: "214",
   },
-  "01/06/2022": {
+  "01/06/2023": {
     name: ["DOUG BENSON", "DOUG", "BENSON", "GETTING DOUG WITH HIGH"],
     image: "DOUG_BENSON.jpg",
     issue: "215",
   },
-  "01/07/2022": {
+  "01/07/2023": {
     name: ["STEVIE WONDER", "STEVY WONDER", "STEVE WONDER", "STEVIE", "WONDER"],
     image: "STEVIE_WONDER.jpg",
     issue: "216",
   },
-  "01/08/2022": {
+  "01/08/2023": {
     name: [
       "STEVE AUSTIN",
       "AUSTIN 3:16",
@@ -1625,12 +1625,12 @@ gameData = {
     image: "STEVE_AUSTIN.jpg",
     issue: "217",
   },
-  "01/09/2022": {
+  "01/09/2023": {
     name: ["FREDDIE MERCURY", "FREDDY MERCURY", "QUEEN", "FREDDIE", "MERCURY"],
     image: "FREDDIE_MERCURY.jpg",
     issue: "218",
   },
-  "01/10/2022": {
+  "01/10/2023": {
     name: [
       "JON HAMM",
       "JOHN HAMM",
@@ -1643,12 +1643,12 @@ gameData = {
     image: "JON_HAM.jpg",
     issue: "219",
   },
-  "01/11/2022": {
+  "01/11/2023": {
     name: ["SANJAYA", "SANJAYA MALAKAR", "AMERICAN IDOL", "MALAKAR"],
     image: "SANJAYA_MALAKAR.jpg",
     issue: "220",
   },
-  "01/12/2022": {
+  "01/12/2023": {
     name: [
       "SIR IAN MCKELLEN",
       "IAN MCKELLEN",
@@ -1660,7 +1660,7 @@ gameData = {
     image: "SIR_IAN_MCKELLEN.jpg",
     issue: "221",
   },
-  "01/13/2022": {
+  "01/13/2023": {
     name: [
       "DONALD TRUMP JR.",
       "DONALD TRUMP JR",
@@ -1673,7 +1673,7 @@ gameData = {
     image: "DONALD_TRUMP_JR.jpg",
     issue: "222",
   },
-  "01/14/2022": {
+  "01/14/2023": {
     name: [
       "AJ MCLEAN",
       "AJ MCCLEAN",
@@ -1685,7 +1685,7 @@ gameData = {
     image: "AJ_MCLEAN.jpg",
     issue: "223",
   },
-  "01/15/2022": {
+  "01/15/2023": {
     name: [
       "ELTON JOHN",
       "SIR ELTON JOHN",
@@ -1697,7 +1697,7 @@ gameData = {
     image: "ELTON_JOHN.jpg",
     issue: "224",
   },
-  "01/16/2022": {
+  "01/16/2023": {
     name: [
       "CHRISTOPHER LLOYD",
       "CHRIS LLOYD",
@@ -1708,7 +1708,7 @@ gameData = {
     image: "CHRISTOPHER_LLOYD.jpg",
     issue: "225",
   },
-  "01/17/2022": {
+  "01/17/2023": {
     name: [
       "NEIL DEGRASSE TYSON",
       "NEIL TYSON",
@@ -1721,7 +1721,7 @@ gameData = {
     image: "NEIL_DEGRASSE_TYSON.jpg",
     issue: "226",
   },
-  "01/18/2022": {
+  "01/18/2023": {
     name: [
       "BENEDICT CUMBERBATCH",
       "BENEDICT",
@@ -1731,12 +1731,12 @@ gameData = {
     image: "BENEDICT_CUMBERBATCH.jpg",
     issue: "227",
   },
-  "01/19/2022": {
+  "01/19/2023": {
     name: ["CARLOS SANTANA", "SANTANA"],
     image: "CARLOS_SANTANA.jpg",
     issue: "228",
   },
-  "01/20/2022": {
+  "01/20/2023": {
     name: [
       "JAMES RANDI",
       "AMAZING RANDI",
@@ -1749,47 +1749,47 @@ gameData = {
     image: "JAMES_RANDI.jpg",
     issue: "229",
   },
-  "01/21/2022": {
+  "01/21/2023": {
     name: ["AL PACINO", "AL PACHINO", "AL", "PACINO"],
     image: "AL_PACINO.jpg",
     issue: "230",
   },
-  "01/22/2022": {
+  "01/22/2023": {
     name: ["JOE COCKER", "COCKER", "JOE"],
     image: "JOE_COCKER.jpg",
     issue: "231",
   },
-  "01/23/2022": {
+  "01/23/2023": {
     name: ["PETE DAVIDSON", "PETE", "DAVIDSON"],
     image: "PETE_DAVIDSON.jpg",
     issue: "232",
   },
-  "01/24/2022": {
+  "01/24/2023": {
     name: ["ELLIOT SMITH", "ELLIOT", "SMITH"],
     image: "ELLIOT_SMITH.jpg",
     issue: "233",
   },
-  "01/25/2022": {
+  "01/25/2023": {
     name: ["JOHN LITHGOW", "JOHN", "LITHGOW", "3RD ROCK FROM THE SUN"],
     image: "JOHN_LITHGOW.jpg",
     issue: "234",
   },
-  "01/26/2022": {
+  "01/26/2023": {
     name: ["CHARLES DARWIN", "CHARLES", "DARWIN"],
     image: "CHARLES_DARWIN.jpg",
     issue: "235",
   },
-  "01/27/2022": {
+  "01/27/2023": {
     name: ["JAKE PAUL", "LOGAN PAUL", "JAKE", "PAUL"],
     image: "JAKE_PAUL.jpg",
     issue: "236",
   },
-  "01/28/2022": {
+  "01/28/2023": {
     name: ["ERIC CLAPTON", "ERIC", "CLAPTON"],
     image: "ERIC_CLAPTON.jpg",
     issue: "237",
   },
-  "01/29/2022": {
+  "01/29/2023": {
     name: [
       "WAYNE GRETZKY",
       "WAYNE",
@@ -1801,12 +1801,12 @@ gameData = {
     image: "WAYNE_GRETZKY.jpg",
     issue: "238",
   },
-  "01/30/2022": {
+  "01/30/2023": {
     name: ["KURT RUSSELL", "KURT RUSSEL", "KURT", "RUSSELL"],
     image: "KURT_RUSSELL.jpg",
     issue: "239",
   },
-  "01/31/2022": {
+  "01/31/2023": {
     name: [
       "BRUCE SPRINGSTEEN",
       "BRUCE SPRINGSTEIN",
