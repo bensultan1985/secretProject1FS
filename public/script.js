@@ -1640,7 +1640,7 @@ gameData = {
       "JON",
       "HAMM",
     ],
-    image: "JON_HAM.jpg",
+    image: "JON_HAMM.jpg",
     issue: "219",
   },
   "01/11/2023": {
@@ -1863,7 +1863,7 @@ const stepMap = {
 
 function imageExists(image_url) {
   var http = new XMLHttpRequest();
-  http.open("HEAD", location.href + "men/" + image_url, false);
+  http.open("HEAD", location.href + "images/men/" + image_url, false);
   http.send();
   return http.status != 404;
 }
@@ -1899,7 +1899,7 @@ const onLoad = (testDate) => {
     (gameData[getTodaysGameDate()] && getTodaysGameDate()) ||
     lastPuzzle;
   state.answer = gameData[todaysGameDate].name;
-  state.image = "/men/" + gameData[todaysGameDate].image;
+  state.image = "/images/men/" + gameData[todaysGameDate].image;
   state.issue = gameData[todaysGameDate].issue;
   setImage();
   updateScoreCard();
@@ -2292,7 +2292,7 @@ $("#header").on("click", () => window.open(window.location.origin, "_self"));
 
 const isImage = (image) => {
   var http = new XMLHttpRequest();
-  let image_url = "/men/" + image;
+  let image_url = "/images/men/" + image;
   http.open("HEAD", image_url, false);
   http.send();
   // console.log(http.status, 'status')
