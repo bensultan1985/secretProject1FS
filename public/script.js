@@ -75,7 +75,6 @@ function stripQueryStringAndHashFromPath(url) {
 }
 
 const onLoad = (testDate) => {
-  console.log("test");
   const urlSearchParams = new URLSearchParams(window.location.search);
   let paramObj = Object.fromEntries(urlSearchParams);
   let param = Object.values(paramObj)[0];

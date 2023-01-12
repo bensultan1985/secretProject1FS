@@ -1810,4 +1810,61 @@ gameData = {
     image: "BRUCE_SPRINGSTEEN.jpg",
     issue: "240",
   },
+  "02/01/2023": {
+    name: ["ANTHONY HOPKINS", "HANNIBAL LECHTER", "ANTHONY", "HOPKINS"],
+    image: "ANTHONY_HOPKINS.jpg",
+    issue: "241",
+  },
+  "02/02/2023": {
+    name: ["MORGAN FREEMAN", "MORGAN", "FREEMAN"],
+    image: "MORGAN_FREEMAN.jpg",
+    issue: "242",
+  },
+  "02/03/2023": {
+    name: ["ADAM DURWITZ", "ADAM", "DURWITZ", "COUNTING CROWS", "MR. JONES"],
+    image: "ADAM_DURWITZ.jpg",
+    issue: "243",
+  },
+  "02/04/2023": {
+    name: [
+      "TAYLOR LAUTNER",
+      "TAYLOR LAUNTNER",
+      "TAYLOR",
+      "LAUTNER",
+      "JACOB",
+      "TEAM JACOB",
+    ],
+    image: "TAYLOR_LAUTNER.jpg",
+    issue: "244",
+  },
+  "02/05/2023": {
+    name: ["DANIEL CRAIG", "DANIEL", "CRAIG", "JAMES BOND"],
+    image: "DANIEL_CRAIG.jpg",
+    issue: "245",
+  },
+  "02/06/2023": {
+    name: ["JK SIMMONS", "J.K. SIMMONS"],
+    image: "JK_SIMMONS.jpg",
+    issue: "246",
+  },
+  "02/07/2023": {
+    name: ["CHRIS ELLIOTT", "CHRIS ELLIOT", "CHRIS", "ELLIOTT", "ELLIOT"],
+    image: "CHRIS_ELLIOTT.jpg",
+    issue: "247",
+  },
+  "02/08/2023": {
+    name: ["MICK JAGGER", "MICK", "JAGGER", "THE ROLLING STONES"],
+    image: "MICK_JAGGER.jpg",
+    issue: "248",
+  },
+  "02/09/2023": {
+    name: ["KENAN THOMPSON", "KENAN", "THOMPSON"],
+    image: "KENAN_THOMPSON.jpg",
+    issue: "249",
+  },
+  "02/10/2023": {
+    name: ["HUGH JACKMAN", "WOLVERINE"],
+    image: "HUGH_JACKMAN.jpg",
+    issue: "250",
+  },
 };
