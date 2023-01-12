@@ -1873,9 +1873,12 @@ const findLastSuccessfulImage = () => {
   let data;
   let gameDataKeys = Object.keys(gameData);
   for (let i = gameDataKeys.length - 1; i > 0; i--) {
-    exists = imageExists(gameData[gameDataKeys[i]].image);
-    data = gameDataKeys[i];
-    if (!isPastPuzzle(gameDataKeys[i])) exists = false;
+    if (!isPastPuzzle(gameDataKeys[i])) {
+      exists = false;
+    } else {
+      exists = imageExists(gameData[gameDataKeys[i]].image);
+      data = gameDataKeys[i];
+    }
     if (exists) return data;
   }
 
