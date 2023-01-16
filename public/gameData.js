@@ -1867,4 +1867,79 @@ gameData = {
     image: "HUGH_JACKMAN.jpg",
     issue: "250",
   },
+  "02/11/2023": {
+    name: [
+      "JEFF GARLIN",
+      "JEFF",
+      "GARLIN",
+      "CURB YOUR ENTHUSIASM",
+      "THE GOLDBERGS",
+    ],
+    image: "JEFF_GARLIN.jpg",
+    issue: "251",
+  },
+  "02/12/2023": {
+    name: [
+      "JASON SCHWARTZMAN",
+      "JASON SCHWARZMAN",
+      "JASON SCHWARTZMANN",
+      "JASON",
+      "SCHWARTZMAN",
+    ],
+    image: "JASON_SCHWARTZMAN.jpg",
+    issue: "252",
+  },
+  "02/13/2023": {
+    name: [
+      "PETER DINKLAGE",
+      "PETER DINKLEDGE",
+      "PETER DINKLEGE",
+      "PETER",
+      "DINKLAGE",
+      "GAME OF THRONES",
+    ],
+    image: "PETER_DINKLAGE.jpg",
+    issue: "253",
+  },
+  "02/14/2023": {
+    name: ["PAT MORITA", "MR. MIYAGI", "MR MIYAGI"],
+    image: "PAT_MORITA.jpg",
+    issue: "254",
+  },
+  "02/15/2023": {
+    name: ["TOMMY LEE", "TOMMIE LEE", "MOTLEY CRUE"],
+    image: "TOMMY_LEE.jpg",
+    issue: "255",
+  },
+  "02/16/2023": {
+    name: ["FRANK ZAPPA", "FRANK ZAPA"],
+    image: "FRANK_ZAPPA.jpg",
+    issue: "256",
+  },
+  "02/17/2023": {
+    name: ["RYAN SEACREST", "RYAN", "SEACREST", "RYAN SEECREST"],
+    image: "FRANK_ZAPPA.jpg",
+    issue: "257",
+  },
+  "02/18/2023": {
+    name: [
+      "TRAVIS MCCOY",
+      "TRAVIS MCKOY",
+      "TRAVIS",
+      "MCCOY",
+      "GYM CLASS HEROES",
+    ],
+    image: "TRAVIS_MCCOY.jpg",
+    issue: "258",
+  },
+  "02/19/2023": {
+    name: ["TOMMY CHONG", "CHONG"],
+    image: "TOMMY_CHONG.jpg",
+    issue: "259",
+  },
+  "02/20/2023": {
+    name: ["MICHAEL STIPE", "MICHAEL STYPE", "R.E.M.", "REM"],
+    image: "MICHAEL_STIPE.jpg",
+    issue: "260",
+  },
 };
