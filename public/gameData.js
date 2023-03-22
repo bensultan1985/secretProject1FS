@@ -2001,7 +2001,7 @@ gameData = {
     issue: "267",
   },
   "02/28/2023": {
-    name: ["PHIL_ROBERTSON", "PHIL", "ROBERTSON", "DUCK DYNASTY"],
+    name: ["PHIL ROBERTSON", "PHIL", "ROBERTSON", "DUCK DYNASTY"],
     image: "PHIL_ROBERTSON.jpg",
     issue: "268",
   },
