@@ -46,9 +46,10 @@ const stepMap = {
   7: 0,
 };
 
-function imageExists(image_url) {
+async function imageExists(image_url) {
   var http = new XMLHttpRequest();
-  http.open("HEAD", location.href + "images/men/" + image_url, false);
+  http.open("HEAD", "https://www.bensultan.com" + "/men/" + image_url, true);
+  http.setRequestHeader("Access-Control-Allow-Origin: *");
   http.send();
   return http.status != 404;
 }
@@ -87,7 +88,8 @@ const onLoad = (testDate) => {
     (gameData[getTodaysGameDate()] && getTodaysGameDate()) ||
     lastPuzzle;
   state.answer = gameData[todaysGameDate].name;
-  state.image = "/images/men/" + gameData[todaysGameDate].image;
+  state.image =
+    "https://www.bensultan.com/men/" + gameData[todaysGameDate].image;
   state.issue = gameData[todaysGameDate].issue;
   setImage();
   updateScoreCard();
@@ -478,10 +480,11 @@ const isTodaysPuzzle = (date) => {
 
 $("#header").on("click", () => window.open(window.location.origin, "_self"));
 
-const isImage = (image) => {
+const isImage = async (image) => {
   var http = new XMLHttpRequest();
-  let image_url = "/images/men/" + image;
-  http.open("HEAD", image_url, false);
+  let image_url = "https://www.bensultan.com/men/" + image;
+  http.open("HEAD", image_url, true);
+  http.setRequestHeader("Access-Control-Allow-Origin: *");
   http.send();
   // console.log(http.status, 'status')
   // console.log(image_url)
