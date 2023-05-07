@@ -2454,7 +2454,7 @@ gameData = {
       "ENRIQUE",
       "INGLESIAS",
     ],
-    image: "ENRIQUE_INGLASIAS.jpg",
+    image: "ENRIQUE_INGLESIAS.jpg",
     issue: "333",
   },
   "05/05/2023": {
